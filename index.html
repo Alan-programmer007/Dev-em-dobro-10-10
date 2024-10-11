@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev-em-dobro-10-10</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
         <div class="pokedevs">
             <div class="cartoes-pokedev">
-                <div class="cartao-pokedev" id="cartao-pikachu">
+                <!--1 poke-->
+                <div class="cartao-pokedev tipo-eletrico" id="cartao-pikachu">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
@@ -27,9 +32,129 @@
                         </div>
                     </div>
                 </div>
+                <!--2 poke-->
+                <div class="cartao-pokedev tipo-fogo" id="cartao-charmander">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Charmander</h2>
+                            <span>#0002</span>
+                        </div>
+                        <span class="tipo">Fogo</span>
+                        <div class="cartao-image">
+                            <img src="./src/image/Charmander.gif" alt="Charmander em gif">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Charmander é um Pokémon do tipo Fogo introduzido na primeira geração dos jogos Pokémon. Ele é um Pokémon bípede e reptiliano, com a maior parte do corpo laranja e a barriga amarela. Seus olhos são azuis e ele tem uma chama na ponta da cauda, que indica sua saúde</p>
+                        </div>
+                    </div>
+                </div>
+                <!--3 poke-->
+                <div class="cartao-pokedev tipo-agua" id="cartao-squirtle">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Squirtle</h2>
+                            <span>#0003</span>
+                        </div>
+                        <span class="tipo">Água</span>
+                        <div class="cartao-image">
+                            <img src="./src/image/Squirtle.gif" alt="Squirtle em gif">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Squirtle é um Pokémon do tipo Água introduzido na primeira geração dos jogos Pokémon. Ele é um Pokémon bípede e reptiliano, com corpo azul, olhos roxos e uma barriga marrom-clara. Squirtle tem uma concha vermelha-marrom resistente nas costas e uma cauda longa que se enrola em espiral</p>
+                        </div>
+                    </div>
+                </div>
+                <!--4 poke-->
+                <div class="cartao-pokedev tipo-planta" id="cartao-bulbassauro">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Bulbassauro</h2>
+                            <span>#0004</span>
+                        </div>
+                        <span class="tipo">Planta</span>
+                        <div class="cartao-image">
+                            <img src="./src/image/Bulbassauro.gif" alt="Bulbassauro em gif">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Bulbassauro é um Pokémon dos tipos Grama e Venenoso introduzido na primeira geração dos jogos Pokémon. Ele é um pequeno Pokémon anfíbio quadrúpede com pele azul-esverdeada e manchas mais escuras. Seus olhos são vermelhos com pupilas brancas, e ele tem orelhas pontiagudas no topo da cabeça</p>
+                        </div>
+                    </div>
+                </div>
+                <!--5 poke-->
+                <div class="cartao-pokedev tipo-veneno" id="cartao-nidoran">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Nidoran</h2>
+                            <span>#0005</span>
+                        </div>
+                        <span class="tipo">Venenoso</span>
+                        <div class="cartao-image">
+                            <img src="./src/image/Nidoran.gif" alt="Nidoran em gif">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Nidoran♂ é um Pokémon do tipo Venenoso introduzido na primeira geração dos jogos Pokémon. Ele é um pequeno Pokémon quadrúpede, semelhante a um roedor, com pele púrpura rosada e manchas mais escuras. Possui grandes orelhas espinhosas com interior verde-azulado, dentes incisivos proeminentes e olhos vermelhos</p>
+                        </div>
+                    </div>
+                </div>
+                <!--6 poke-->
+                <div class="cartao-pokedev tipo-fogo" id="cartao-pidgeotto">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Pidgeotto</h2>
+                            <span>#0006</span>
+                        </div>
+                        <span class="tipo">Fogo</span>
+                        <div class="cartao-image">
+                            <img src="./src/image/Pidgeotto.gif" alt="Pidgeotto em gif">
+                        </div>
+                    </div>
+                    <div class="cartao-info">
+                        <div class="descricao">
+                            <h3>Descrição</h3>
+                            <p>Pidgeotto é um Pokémon dos tipos Normal e Voador introduzido na primeira geração dos jogos Pokémon. Ele é a evolução do Pidgey e evolui para Pidgeot no nível 3612. Pidgeotto é um Pokémon semelhante a um pássaro, com penas marrons e uma face creme. Ele possui uma crista de penas avermelhadas na cabeça e marcas pretas atrás dos olhos</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <nav class="listagem">
-
+                <ul>
+                    <li class="pokedev ativa" id="pikachu">
+                        <img src="./src/image/Pikachu.gif" alt="Pikachu">
+                        <span>Pikachu</span>
+                    </li>
+                    <li class="pokedev" id="Charmander">
+                        <img src="./src/image/Charmander.gif" alt="Charmander">
+                        <span>Charmander</span>
+                    </li>
+                    <li class="pokedev" id="Squirtle">
+                        <img src="./src/image/Squirtle.gif" alt="Squirtle">
+                        <span>Squirtle</span>
+                    </li>
+                    <li class="pokedev" id="Bulbassauro">
+                        <img src="./src/image/Bulbassauro.gif" alt="Bulbassauro">
+                        <span>Bulbassauro</span>
+                    </li>
+                    <li class="pokedev" id="Nidoran"> 
+                        <img src="./src/image/Nidoran.gif" alt="Nidoran">
+                        <span>Nidoran</span>
+                    </li>
+                    <li class="pokedev" id="Pidgeotto">
+                        <img src="./src/image/Pidgeotto.gif" alt="Pidgeotto">
+                        <span>Pidgeotto</span>
+                    </li>
+                </ul>
             </nav>
         </div>
     </main>
